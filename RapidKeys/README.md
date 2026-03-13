@@ -2,7 +2,7 @@ RapidKeys is a typing speed test built with React and TailwindCSS, tracking WPM,
 
 Live Demo: (https://rapidkeys-react-hvd8.vercel.app/)
 
-Demo Video: ![RapidKeys Demo](./src/assets/RapidKeys-Demo.mp4)
+Demo Video: ![RapidKeys Demo](./src/assets/Demo-RapidKeys.mp4)
 
 Features:
 - Real-time WPM, accuracy, and errors
