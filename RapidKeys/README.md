@@ -1,16 +1,28 @@
-# React + Vite
+RapidKeys is a typing speed test built with React and TailwindCSS, tracking WPM, accuracy, and errors in real-time with a live chart. Supports difficulty levels, custom durations, and dark/light themes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: (https://rapidkeys-react-hvd8.vercel.app/)
 
-Currently, two official plugins are available:
+Demo Video: ![RapidKeys Demo](./src/assets/RapidKeys-Demo.mp4)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features:
+- Real-time WPM, accuracy, and errors
+- Difficulty: Easy, Medium, Hard
+- Duration: 15s, 30s, 60s
+- Live chart of performance
+- High score tracking in localStorage
+- Responsive and modern UI
 
-## React Compiler
+Installation:
+git clone https://github.com/gautamsonpitale17/rapidkeys-react
+cd rapidkeys-react
+npm install
+npm start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Usage:
+- Choose difficulty and duration
+- Start typing to begin the test
+- Monitor your WPM, accuracy, and errors
+- Reset to try a new sentence
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech:
+React | TailwindCSS | Chart.js
